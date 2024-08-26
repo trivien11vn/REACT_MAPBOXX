@@ -1,0 +1,8 @@
+1) 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        // Code xử lý form ở đây, chẳng hạn như gửi dữ liệu form bằng AJAX
+    }
+
+Trong đoạn code trên, e.preventDefault() sẽ ngăn không cho form được gửi đi và thay vào đó bạn có thể
+xử lý dữ liệu theo ý muốn của mình.

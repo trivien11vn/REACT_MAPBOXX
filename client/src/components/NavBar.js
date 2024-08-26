@@ -32,7 +32,7 @@ const NavBar = () => {
                 </Typography>
 
                 {!currentUser ? 
-                    <Button color='inherit' startIcon={<Lock />} onClick={()=>{dispatch({type:'UPDATE_USER', payload:user})}}>
+                    <Button color='inherit' startIcon={<Lock />} onClick={()=>{dispatch({type:'OPEN_LOGIN'})}}>
                         Login
                     </Button>
                     : 
